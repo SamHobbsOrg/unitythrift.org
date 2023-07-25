@@ -1,0 +1,108 @@
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.2;
+    font-size: initial;
+    background-color: #D6B795;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: thin;
+}
+
+th {
+    text-align: center;
+    font-weight: bold;
+}
+
+dl {
+    margin-left: 4em;
+}
+
+A:hover {
+    color: #008000;
+}
+
+.doublecolumns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+.TableContainer {
+    display: table;
+}
+
+.TableRow {
+    display: table-row;
+}
+
+.TableCell {
+    display: table-cell;
+}
+
+.noinl { /*no-indent list*/
+    /* https://www.sitepoint.com/community/t/css-ios-browser-indenting-list/318602/2 */
+    list-style: none;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+p.cssListBegin {
+    margin-bottom: 0em;
+}
+
+p.cssListEnd {
+    margin-top: 0em;
+}
+
+p.cssList {
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+ul.cssList {
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+.Quote {
+    margin-top: inherit;
+    margin-bottom: inherit;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.code {
+    font-family: monospace;
+    white-space: pre;
+    margin-left: 1em;
+}
+
+.inlcode {
+    font-family: monospace;
+}
+
+.codeblock {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    white-space: pre;
+    unicode-bidi: embed;
+    font-family: monospace;
+    /* maybe also use: */
+    /* overflow: auto; */
+}
